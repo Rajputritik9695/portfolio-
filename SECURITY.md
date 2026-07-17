@@ -1,7 +1,7 @@
 # Security & Contribution Policy
 
 ## 🔒 Security Policy
-This project is a personal portfolio and is strictly maintained by **@rgunasree**.
+This project is a personal portfolio and is strictly maintained by **@Rajputritik9695**.
 
 ## 🛑 Unauthorized Changes
 - **No external resume files** or personal data should ever be committed to this repository.
