@@ -1,6 +1,6 @@
 # Ritik Singh Rajput | AI & Automation Engineering Portfolio
 
-![Portfolio Preview](public/images/portfolio_preview.png)
+![Portfolio Preview](public/images/portfolio_preview_v2.png)
 
 A high-performance, immersive portfolio showcasing production-grade AI/ML solutions, architected with **React 18**, **TypeScript**, and **Three.js**, with a focus on Agentic AI workflows and LLM applications.
 
