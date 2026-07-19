@@ -43,10 +43,12 @@ const projects = [
       'Personalized HR communication at scale',
       'Automated workflows using n8n',
     ],
-    tech: ['Python', 'n8n', 'Gemini API', 'Gmail API', 'Google Sheets'],
+    tech: ['React', 'Vite', 'Python', 'n8n', 'Gemini API', 'Google Sheets'],
     gradient: 'from-purple-500 to-cyan-500',
     impactMetric: { value: 100, label: 'Automation', prefix: '' },
-    image: '/images/tasknerve_smurf.png'
+    image: '/images/tasknerve_smurf.png',
+    githubUrl: 'https://github.com/Rajputritik9695/AI-Powered-Recruitment-Platform.git',
+    liveUrl: 'https://github.com/Rajputritik9695/AI-Powered-Recruitment-Platform.git'
   },
   {
     title: 'Local RAG PDF Assistant',
