@@ -1,5 +1,5 @@
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
-import { ExternalLink, Github, TrendingUp, Zap, Target, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Github, TrendingUp, Zap, Target, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useRef, useState } from 'react';
 import ProjectImpactChart from './ProjectImpactChart';
 
@@ -47,8 +47,7 @@ const projects = [
     gradient: 'from-purple-500 to-cyan-500',
     impactMetric: { value: 100, label: 'Automation', prefix: '' },
     image: '/images/tasknerve_smurf.png',
-    githubUrl: 'https://github.com/Rajputritik9695/AI-Powered-Recruitment-Platform.git',
-    liveUrl: 'https://github.com/Rajputritik9695/AI-Powered-Recruitment-Platform.git'
+    githubUrl: 'https://github.com/Rajputritik9695/AI-Powered-Recruitment-Platform.git'
   },
   {
     title: 'Local RAG PDF Assistant',
@@ -202,19 +201,6 @@ function ProjectCard({ project, index }: { project: typeof projects[0], index: n
           </div>
 
           <div className="flex gap-4 pt-2">
-            {project.liveUrl && (
-              <motion.a
-                href={project.liveUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className={`flex items-center gap-2 px-6 py-3 bg-gradient-to-r ${project.gradient} rounded-full text-white font-bold text-sm shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 transition-all`}
-              >
-                <ExternalLink size={16} />
-                Live Demo
-              </motion.a>
-            )}
             {project.githubUrl && (
               <motion.a
                 href={project.githubUrl}
